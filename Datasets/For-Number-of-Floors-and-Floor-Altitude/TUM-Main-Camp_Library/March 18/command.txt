@@ -1,0 +1,1 @@
+[IDX,C,SUMD,K]=best_kmeans(Pedometer(40:end,23))
