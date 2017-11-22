@@ -1,0 +1,3 @@
+It was about to dark, but little day light, so the light sensor fails in this situation!!!!
+We cannot say if it is night or day, the contrast between day and night outdoor and indoor is very low!
+
