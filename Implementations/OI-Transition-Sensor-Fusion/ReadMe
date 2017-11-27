@@ -4,5 +4,8 @@ To select another datasets from other buildings, please redefine the paths in th
 
 OI_Light.m and OI_Magnetic.m files. You should choose similar datasets with similar names.
 
-Note: The ground truth for evaluations is based on the large signal edges of light or GPS uncertaity at transition points.
+Note 01: The ground truth for evaluations is based on the large signal edges of light or GPS uncertaity at transition points.
 
+Note 02: In few datasets, there might be a problem in recording time by the smartphone in that e.g. data collection time interval of 
+light might not intersect the time interval of GPS. In these cases, error might happen in fusion process. For fixing this issue, we are 
+trying to upgrade our data collection application to have a better synchronization between different sensors.
