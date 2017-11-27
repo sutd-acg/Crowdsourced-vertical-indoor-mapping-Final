@@ -1,5 +1,8 @@
 To fuse selected datasets from GPS, Light and Magnetic sensors, please execute the 'fusion.m' file in MATLAB.
 
-To select another datasets from other buildings, please redefine the paths in the MATLAB functions OI_GPS.m, 
+To select another datasets from other buildings, please redefine the paths in the MATLAB functions OI_GPS.m,
+
 OI_Light.m and OI_Magnetic.m files. You should choose similar datasets with similar names.
+
+Note: The ground truth for evaluations is based on the large signal edges of light or GPS uncertaity at transition points.
 
