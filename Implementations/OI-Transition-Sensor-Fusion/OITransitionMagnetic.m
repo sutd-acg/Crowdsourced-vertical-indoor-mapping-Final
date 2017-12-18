@@ -33,7 +33,9 @@ end
 % Read the data
 magn = xlsread('./OI_Magnetic/TUM/My_TUM_MAY27Magnetic.csv');
 
-temp_mag = unique(magn,'rows');
+% temp_mag = unique(magn,'rows');
+[~,idu] = unique(magn(:,1));
+temp_mag = magn(idu,:);
 
 % Select the data from desired axis 
 mgn = temp_mag(:,3);
