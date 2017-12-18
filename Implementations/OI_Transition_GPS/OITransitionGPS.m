@@ -444,14 +444,14 @@ title('Final Binary Classification', 'FontSize',20)
 yyaxis('left')
 plot (uncertainty_raw)
 xlabel('Number of Samples','FontSize',20)
-ylabel('Light [lx]','FontSize',20)
+ylabel('Uncertainty [m]','FontSize',20)
 hold on
 yyaxis('right')
 plot(B6)
 ylabel('Binary Classification','FontSize',20)
 ylim([-0.01 2])
 set(gca,'fontsize',20)
-legend({'Light Signal','Binary Result'},'FontSize',15)
+legend({'Geolocation Uncertainty Signal','Binary Result'},'FontSize',15)
 
 end
 
