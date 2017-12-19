@@ -432,6 +432,9 @@ if hist_width(2)<= 600
        end  
        
    end
+   if isempty(q)
+       B4 = Otsu_Binary_Result;
+   end
 end
 
 % Day
@@ -475,6 +478,9 @@ if hist_width(2)>600
               B4(q(i+1)+1:end) = 0;
        end  
        
+   end
+   if isempty(q)
+       B4 = ~Otsu_Binary_Result;
    end
     
 end
