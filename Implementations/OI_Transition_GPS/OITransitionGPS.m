@@ -437,7 +437,9 @@ B6 = zeros(size(smoth));
        end         
    end
 
-
+if isempty(q)
+       B6 = B2;
+end
 
 figure
 title('Final Binary Classification', 'FontSize',20)
